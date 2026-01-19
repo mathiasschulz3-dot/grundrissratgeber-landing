@@ -51,9 +51,7 @@ export default function ImpressumPage() {
                 <div className="bg-slate-50 rounded-xl p-6">
                   <p>
                     <span className="font-semibold">E-Mail:</span>{' '}
-                    <a href="mailto:mathias@ki-projexx.de" className="text-blue-600 hover:text-blue-700 underline">
-                      mathias@ki-projexx.de
-                    </a>
+                    <span className="font-mono">mathias [at] ki-projexx [punkt] de</span>
                   </p>
                 </div>
               </div>
@@ -199,9 +197,7 @@ export default function ImpressumPage() {
                 <h3 className="text-lg font-semibold text-slate-900 mb-3">Kontakt bei Datenschutzfragen</h3>
                 <p>
                   Bei Fragen zum Datenschutz wenden Sie sich bitte an:{' '}
-                  <a href="mailto:mathias@ki-projexx.de" className="text-blue-600 hover:text-blue-700 underline font-semibold">
-                    mathias@ki-projexx.de
-                  </a>
+                  <span className="font-mono font-semibold">mathias [at] ki-projexx [punkt] de</span>
                 </p>
               </div>
 
