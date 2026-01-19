@@ -123,12 +123,6 @@ export default function LandingPage() {
                   Plane deine Traumküche mit 4 verschiedenen Layouts. Direktvermittlung 
                   zu Premium-Küchenherstellern.
                 </p>
-                <div className="space-y-2 mb-4">
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4" />
-                    <span className="text-sm">€630 - €3.750 Provision pro Küche</span>
-                  </div>
-                </div>
                 <div className="flex items-center font-semibold group-hover:gap-3 gap-2 transition-all">
                   Jetzt planen <ArrowRight className="w-4 h-4" />
                 </div>
@@ -149,10 +143,6 @@ export default function LandingPage() {
                 <div className="flex items-center gap-2 text-sm text-slate-600">
                   <Check className="w-4 h-4 text-green-600" />
                   <span>IKEA • Otto • Wayfair</span>
-                </div>
-                <div className="flex items-center gap-2 text-sm text-slate-600">
-                  <Check className="w-4 h-4 text-green-600" />
-                  <span>5-15% Kommission</span>
                 </div>
               </div>
               <div className="flex items-center text-purple-600 font-semibold group-hover:gap-3 gap-2 transition-all">
@@ -209,10 +199,6 @@ export default function LandingPage() {
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4" />
                     <span className="text-sm">50+ geprüfte Partner</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="w-4 h-4" />
-                    <span className="text-sm">3-5% Provision (€12-20k pro Haus)</span>
                   </div>
                   <div className="flex items-center gap-2">
                     <Check className="w-4 h-4" />
