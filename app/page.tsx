@@ -1,6 +1,7 @@
 'use client'
 
 import { Home, Sofa, ChefHat, Trees, Sun, Building2, Sparkles, ArrowRight, Check } from 'lucide-react'
+import Link from 'next/link'
 
 export default function LandingPage() {
   return (
@@ -283,8 +284,11 @@ export default function LandingPage() {
             <div>
               <h4 className="font-semibold mb-4">Legal</h4>
               <ul className="space-y-2 text-slate-400 text-sm">
-                <li className="hover:text-white transition-colors cursor-pointer">Impressum</li>
-                <li className="hover:text-white transition-colors cursor-pointer">Datenschutz</li>
+                <li>
+                  <Link href="/impressum" className="hover:text-white transition-colors">
+                    Impressum & Datenschutz
+                  </Link>
+                </li>
                 <li className="hover:text-white transition-colors cursor-pointer">AGB</li>
               </ul>
             </div>
